@@ -370,9 +370,14 @@
 
 .work > ul > li > div:nth-child(2) {
     display: flex;
+    text-align: center;
     flex-direction: column;
     margin: 1rem;
     font-size: var(--font-normal);
+}
+
+.work > ul > li > div:nth-child(2) > div:before{
+    content: '- ';
 }
 
 .work > ul > li > div:nth-child(2) > div{

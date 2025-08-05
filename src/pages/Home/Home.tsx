@@ -91,7 +91,7 @@ export default function Home() {
 					</li>
 				</ul>
 				<div id='email-alert' className='hide'>
-					copied text
+					Email Copied!
 				</div>
 			</section>
 			<section className='education'>
@@ -250,7 +250,6 @@ export default function Home() {
 								Learned how to work in a fast-paced environment, handle
 								difficult situations, and deal with different personalities.
 							</div>
-							<div></div>
 						</div>
 					</li>
 					<li>
@@ -269,7 +268,6 @@ export default function Home() {
 								Unloaded packages from trucks and sorted them onto pallets and
 								learned how to operate a forklift to assist in this process.
 							</div>
-							<div></div>
 						</div>
 					</li>
 				</ul>
