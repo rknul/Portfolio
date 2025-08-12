@@ -342,13 +342,16 @@
 .work > ul > li{
     width: 100%;
     margin-bottom: 3rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem;
 }
 
 .work > ul > li > div:nth-child(1){
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     border-bottom: 1px solid var(--secondary-color);
 }
@@ -370,15 +373,16 @@
 
 .work > ul > li > div:nth-child(2) {
     display: flex;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
-    margin: 1rem;
     font-size: var(--font-normal);
+        /* border: 1px solid black;
+    border-radius: 10px; */
 }
 
-.work > ul > li > div:nth-child(2) > div:before{
+/* .work > ul > li > div:nth-child(2) > div:before{
     content: '- ';
-}
+} */
 
 .work > ul > li > div:nth-child(2) > div{
     margin-top: 1rem;

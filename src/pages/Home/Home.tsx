@@ -217,20 +217,17 @@ export default function Home() {
 						</div>
 						<div>
 							<div>
-								Designed and implemented a full-stack application that increased
-								data-gathering efficiency by 80%, empowering blind employees and
-								external users to access information independently.
+								Built a full-stack app improving data access for blind
+								employees, boosting efficiency by 80%.
 							</div>
 							<div>
-								Engineered Python scripts that streamlined the transformation of
-								10,000+ data points into structured Excel files, leveraging
-								Pandas and Openpyxl; resulted in a 40% reduction in data
-								processing time for analysts.
+								Automated transformation of 10K+ data points into structured
+								Excel files using Python, Pandas, and Openpyxl — cut processing
+								time by 40%.
 							</div>
 							<div>
-								Oversaw help desk tickets for a newly implemented clothing
-								requisition system used across all Department of Defense
-								branches.
+								Managed help desk support for a DoD-wide clothing requisition
+								system.
 							</div>
 						</div>
 					</li>
@@ -242,13 +239,12 @@ export default function Home() {
 						</div>
 						<div>
 							<div>
-								Assisted customers with donations, ensuring items were properly
-								sorted and categorized, while maintaining a clean and organized
-								workspace.
+								Supported donation intake and sorting while maintaining a clean,
+								organized workspace.
 							</div>
 							<div>
-								Learned how to work in a fast-paced environment, handle
-								difficult situations, and deal with different personalities.
+								Adapted to fast-paced environments and diverse customer
+								interactions.
 							</div>
 						</div>
 					</li>
@@ -260,13 +256,11 @@ export default function Home() {
 						</div>
 						<div>
 							<div>
-								Collaborated with team members to optimize the unloading
-								process, ensuring timely and accurate delivery of materials to
-								the appropriate departments.
+								Streamlined unloading and delivery processes across departments.
 							</div>
 							<div>
-								Unloaded packages from trucks and sorted them onto pallets and
-								learned how to operate a forklift to assist in this process.
+								Operated forklifts and organized inventory for efficient
+								warehouse flow.
 							</div>
 						</div>
 					</li>
