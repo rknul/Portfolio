@@ -67,3 +67,10 @@
           --project-height: 150px;
   }
 }
+
+@media only screen and (max-width: 320px){
+    :root{
+          --project-width: 120px;
+          --project-height: 120px;
+  }
+}
