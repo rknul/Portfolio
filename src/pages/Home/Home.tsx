@@ -33,7 +33,7 @@ export default function Home() {
 		gsap.from('.language-container', {
 			scrollTrigger: {
 				trigger: '.language-container',
-				toggleActions: 'restart restart none  none',
+				toggleActions: 'play none none  none',
 			},
 			x: -300,
 			color: 'transparent',
@@ -43,7 +43,7 @@ export default function Home() {
 		gsap.from('.technology-container', {
 			scrollTrigger: {
 				trigger: '.technology-container',
-				toggleActions: 'restart restart none none',
+				toggleActions: 'play none none  none',
 			},
 			x: -300,
 			color: 'transparent',
@@ -53,7 +53,7 @@ export default function Home() {
 		gsap.from('.tools-container', {
 			scrollTrigger: {
 				trigger: '.tools-container',
-				toggleActions: 'restart restart none none ',
+				toggleActions: 'play none none  none',
 			},
 			x: -300,
 			color: 'transparent',
@@ -70,6 +70,10 @@ export default function Home() {
 		setTimeout(function () {
 			emailAlert!.className = 'hide';
 		}, 2000);
+	}
+
+	function navigateToNemy() {
+		window.open('https://nemysiu.netlify.app/');
 	}
 
 	return (
@@ -275,14 +279,19 @@ export default function Home() {
 				</div>
 				<div className='project-header'>PROJECTS</div>
 				<div className='project-container'>
+					<div onClick={() => navigateToNemy()}>
+						<div className='nemy-img'></div>
+						<div>personal trainer site</div>
+					</div>
+
 					<div>
 						<div className='portfolio-img'></div>
-						<div>Portfolio</div>
+						<div>my portfolio</div>
 					</div>
 
 					<div onClick={() => setRequestPreview(true)}>
 						<div className='requests-img'></div>
-						<div>Reports Site</div>
+						<div>reporting site</div>
 					</div>
 				</div>
 			</section>

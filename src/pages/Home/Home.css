@@ -456,6 +456,16 @@
     background-repeat: no-repeat;
 }
 
+.nemy-img{
+    width: 100%;
+    /* height: calc(var(--project-height) - 25px); */
+    height: 100%;
+    background-image: url('../../assets/Images/nemy.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .project-container > div > div:nth-child(2){
     position: absolute;
     bottom: 0;
