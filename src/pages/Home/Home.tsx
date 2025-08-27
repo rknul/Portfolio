@@ -76,6 +76,10 @@ export default function Home() {
 		window.open('https://nemysiu.netlify.app/');
 	}
 
+	function navigateToAqua() {
+		window.open('https://aquaspawinston.com/');
+	}
+
 	return (
 		<>
 			<section className='home'>
@@ -279,6 +283,10 @@ export default function Home() {
 				</div>
 				<div className='project-header'>PROJECTS</div>
 				<div className='project-container'>
+					<div onClick={() => navigateToAqua()}>
+						<div className='aqua-img'></div>
+						<div>nail shop site</div>
+					</div>
 					<div onClick={() => navigateToNemy()}>
 						<div className='nemy-img'></div>
 						<div>personal trainer site</div>
