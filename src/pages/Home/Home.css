@@ -512,10 +512,10 @@
 /*project images*/
 
 .request-img{
-    /* background-image: url(../../assets/Images/requests.png);
+    background-image: url(../../assets/Images/request-img.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
+    background-size: contain;
+    background-position: center;
 }
 
 .aqua-img{
