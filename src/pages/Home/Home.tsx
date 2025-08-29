@@ -23,9 +23,6 @@ import { FaGithub } from 'react-icons/fa6';
 import { BiLogoVisualStudio } from 'react-icons/bi';
 import { DiVisualstudio } from 'react-icons/di';
 
-import { MdOutlineCancel } from 'react-icons/md';
-import { useState } from 'react';
-
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function Home() {
@@ -60,8 +57,6 @@ export default function Home() {
 			duration: 1.5,
 		});
 	});
-
-	const [requestPreview, setRequestPreview] = useState(false);
 
 	function copyEmail() {
 		navigator.clipboard.writeText('yrobinbknul@gmail.com');
@@ -275,33 +270,76 @@ export default function Home() {
 				</ul>
 			</section>
 			<section className='projects'>
-				<div className={requestPreview ? 'requests-preview' : 'hide'}>
-					<div onClick={() => setRequestPreview(false)}>
-						<MdOutlineCancel />
-					</div>
-					<div></div>
-				</div>
 				<div className='project-header'>PROJECTS</div>
-				<div className='project-container'>
-					<div onClick={() => navigateToAqua()}>
-						<div className='aqua-img'></div>
-						<div>nail shop site</div>
-					</div>
-					<div onClick={() => navigateToNemy()}>
-						<div className='nemy-img'></div>
-						<div>personal trainer site</div>
-					</div>
-
-					<div>
-						<div className='portfolio-img'></div>
-						<div>my portfolio</div>
-					</div>
-
-					<div onClick={() => setRequestPreview(true)}>
-						<div className='requests-img'></div>
-						<div>reporting site</div>
-					</div>
-				</div>
+				<ul>
+					<li className='request-img'></li>
+					<li>
+						<div>
+							<h1>Data Acquisition Website</h1>
+							<div>HTML, CSS, Typescript, React, MSSQL, C# .NET</div>
+							<h5>Full Stack Application</h5>
+						</div>
+						<div>
+							<div>
+								A full-stack app that improved data gathering for blind
+								employees, boosting efficiency by 80%
+							</div>
+							<div>
+								Implemented JWT authorization to verify user and limit API usage
+							</div>
+							<div>
+								Implemented libraries to enable exporting tables to excel files
+							</div>
+						</div>
+					</li>
+					<li className='aqua-img' onClick={() => navigateToAqua()}></li>
+					<li>
+						<div>
+							<h1>Aqua Spa & Nails</h1>
+							<div>HTML, CSS, Typescript, React</div>
+							<h5>Frontend Application</h5>
+						</div>
+						<div>
+							<div>
+								A single page application representing Aqua Spa & Nails in
+								Winston Salem, NC
+							</div>
+							<div>
+								Contains basic navigation routes for more information and
+								navigation to their online booking system
+							</div>
+						</div>
+					</li>
+					<li className='nemy-img' onClick={() => navigateToNemy()}></li>
+					<li>
+						<div>
+							<h1>Personal Trainer Website</h1>
+							<div>HTML, CSS, Typescript, React</div>
+							<h5>Frontend Application</h5>
+						</div>
+						<div>
+							<div>
+								A simple single page application showcasing this personal
+								trainer's accomplishments and contact information
+							</div>
+							<div>
+								Implemented a contact form that sends an email to the trainer
+								when submitted
+							</div>
+						</div>
+					</li>
+					<li className='portfolio-img'></li>
+					<li>
+						<div>
+							<h1>Portfolio</h1>
+							<div>HTML, CSS, Typescript, React</div>
+							<h5>Frontend Application</h5>
+						</div>
+						<div>
+							<div>Basic portfolio website showcasing my experience</div>
+						</div>
+					</li>
+				</ul>
 			</section>
 		</>
 	);
