@@ -24,7 +24,7 @@ Welcome to my portfolio. This is where I will document my projects and assignmen
 ## SQL
 | Project Title | Completed Date | Tools | Description |
 | --- | --- | --- | --- |
-| | | | |
+| [8 Week SQL Challenge](https://github.com/rknul/8-Week-SQL-Challenge)  | In Progress... | SQL | Challenge consisting of 8 Case Studies to test your SQL skills |
 
 ## Python
 | Project Title | Completed Date | Tools | Description |
